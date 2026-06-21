@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MarkPreX</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="toolbar">
+            <div class="toolbar-group">
+                  <img src="images/star.png" alt="">
+                  <button type="button" data-action="bold" title="Bold">B</button>
+                  <button type="button" data-action="italic" title="Italic">I</button>
+                  <button type="button" data-action="heading" title="Heading">H</button>
+                  <button type="button" data-action="link" title="Link">link</button>
+                  <button type="button" data-action="image" title="Image">img</button>
+                  <button type="button" data-action="code" title="Code Block">{ }</button>
+            </div>
+             <div class="toolbar-group">
+             <button type="button" id="copyHtmlBtn" title="Copy HTML">Copy HTML</button>
+             <button type="button" id="downloadBtn" title="Download .md">Download</button>
+             <button type="button" id="clearBtn" title="Clear Storage">Clear</button>
+             </div>
+        </header>
+
+     <main class="app">
+         <section class="editor-pane">
+         <textarea id="editor" placeholder="Type your Markdown here..."></textarea>
+         </section>
+         <section class="preview-pane">
+            <div id="preview" class="markdown-body"></div>
+         </section>
+     </main>
+     <script type="module" src="./app.js"></script>
+    </body>
+</html>
