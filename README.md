@@ -48,7 +48,7 @@ The goal is to gain an understanding of Markdown parsers and to learn about DOM 
 * Blob API
 * DOM Manipulation
 * Regular Expressions
-* fonts from (https://fonts.google.com/specimen/Pixelify+Sans)
+* fonts from (https://fonts.google.com/)
 * icon from (https://www.pinterest.com/)
 
 ## File Descriptions
